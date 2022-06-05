@@ -1,0 +1,63 @@
+/* 
+    DUDAS DEL CONTENIDO DE LA MATERIA
+
+    - EJERCICIOS RANDOM
+    
+    * PENSAMIENTO COMP
+    
+    1 - CANT DE VARIABLES??? PENSAMIENTO COMP
+    2 - FUNCIONES DECLARADAS VS EXPRESADAS
+    
+    3 - FUNCIONES FLECHAS
+    
+    ?CLASE CONSULTA 1 
+*/
+/* 
+En este ejercicio nuestra tarea es completar la función noParesDeContarImparesHasta.
+
+// Esta función recibe un número X por parámetro 
+
+// y cuenta la cantidad de números impares que hay desde el número 0 hasta el número X (inclusive) 
+
+//y luego retorna ese valor. Para resolver la ejercitación debemos utilizar el for.
+
+?FIIIIIN !!!!!!!!!!
+
+*/
+/* 
+const IVA = 21.5;
+let numero2 = 123; */
+/* DECLARADA */
+
+
+function noParesDeContarImparesHasta(nro){
+    let contador = 0;
+    for(let i = 0; i <= nro ; i++){
+        if(i % 2 !== 0){
+            contador++;            
+        } 
+    }
+    return contador;
+}
+
+// QUE PASARÁ AQUÍIII ? 
+
+/* while (true) {
+    console.log('Holiiiis');
+}
+ */
+//console.log(noParesDeContarImparesHasta(4));  // 2
+/*  console.log(noParesDeContarImparesHasta(5));  // 2
+ console.log(noParesDeContarImparesHasta(500));  // 2
+ console.log(noParesDeContarImparesHasta(1000));  // 2
+ console.log(noParesDeContarImparesHasta(1001));  // 2 */
+//  console.log(contador);  // 2
+// 0 1 2 3 4
+//          i | 2
+/*
+    console.log(0 % 2); //  0
+    console.log(1 % 2); //  1 impar
+    console.log(2 % 2); //  0
+    console.log(3 % 2); //  
+    console.log(4 % 2); //   
+*/
