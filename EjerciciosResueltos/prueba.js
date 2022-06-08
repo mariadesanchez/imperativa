@@ -4,6 +4,7 @@
 const prompt = require("prompt-sync")({ sigint: true });
 
 let numero = prompt('ingresa un numero: ')
+
 function noParesDeContarImparesHasta(num){
     let contador = 0;
     for ( let i = 0; i<= num ;i++){
