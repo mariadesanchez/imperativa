@@ -49,7 +49,7 @@ console.log(comparacion);*/
 
 //ENCONTRAR CLIENTE BANCO
 //la lista de clientes.
-let arrayCuentas = [
+/*let arrayCuentas = [
     {
       nroCuenta: 5486273622,
       tipoDeCuenta: "Cuenta Corriente",
@@ -304,9 +304,15 @@ function anteriorDelTriple (numero){
 }
 console.log(anteriorDelTriple(10));
 */
+let text ='Este texto es mala onda';
+let search = 'mala';
+let replace = 'buena';
 
+function reemplazoFastFast(textoSinGuiones, buscar,reemplazar){
 
-
+  console.log(textoSinGuiones.replace(buscar,reemplazar));
+  }
+  reemplazoFastFast(text,search,replace)
 
 
 
